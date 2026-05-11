@@ -1,4 +1,6 @@
 # My-Security-Journey
-Meu diário de bordo para uma jornada extremamente segura😎.Aqui documento tudo o que aprendo enquanto me torno uma especialista em CyberSecurit
+Bem-vindo(a) ao meu diário de bordo!
+Aqui documento tudo o que aprendo enquanto me torno uma especialista em CyberSecurity😎
 
-💡**Aviso** "Este é um repositório de estudos pessoais em CyberSecurity.Estou em constante aprendizado e usando este espaço para documentar minha evolução."
+💡**Aviso** "Este repositório é focado em estudos pessoais.Sinta-se à vontade para fuxicar,acompanhar minha evolução e se desejar contribuir com assuntos, questionamentos, pode inclusive abrir Issues.
+
