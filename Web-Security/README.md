@@ -1,2 +1,2 @@
-Em breve
+Breve
 Explicação sobre CORS,SQL,Injection
