@@ -21,9 +21,7 @@ app.use(cors()); // Libera o acesso para as origens autorizadas
 É o processo de "limpar" as entradas do usuário. Se alguém tentar enviar um código malicioso em um formulário (como um `<script>`), a sanitização remove ou transforma esse código em texto comum para que ele não seja executado pelo servidor ou pelo navegador.
 
 **Por que é vital?**
-Previne ataques graves como **XSS** e **SQL Injection**. É a primeira linha de defesa para garantir que o que entra no seu sistema é seguro.
-
-essa informação posso colocar onde? Segurança Web?
+Previne ataques graves como **XSS** e **SQL Injection**. É a primeira linha de defesa para garantir que o que entra no sistema é seguro.
 
 ### 🛡️ Resumo de Controles
 
