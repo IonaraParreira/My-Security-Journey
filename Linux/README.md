@@ -1,5 +1,7 @@
 <h1> O quê esse Linux têm?</h1>
-
+<p align="center">
+  <img src="linux.webp" alt="Linux Logo" width="600">
+</p>
 Toda a infraestrutura digital — de servidores na nuvem à internet das coisas — roda nele. 
 Sua natureza de código aberto, alto desempenho e controle total via terminal o tornam a base insubstituível para ferramentas de segurança e defesa de redes
 
