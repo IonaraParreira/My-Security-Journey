@@ -112,7 +112,8 @@ A análise nunca é feita no computador invadido. Você leva o arquivo .raw para
 Lá, você processa o arquivo com calma, sem pressa e sem medo de alterar a cena do crime original.
 
 
-<h1>Para não alterar nenhum dado😌☝🏻</h1>
+<h1>Para não alterar nenhum dado😌☝🏻</h1><br>
+
 >É importante usar os bloqueadore físicos ou montagem via software.<br>
 
 Abaixo estão as práticas essenciais para preparar e conduzir o processo de forma segura😉:
@@ -121,41 +122,35 @@ A forma mais segura e recomendada é o bloqueador de escrita por hardware.
 O que faz: Intercepta os comandos do computador, permitindo que você leia o disco de destino sem a possibilidade de enviar dados ou alterar o sistema de arquivos.
 Como usar: Conecte o disco suspeito a um Write Blocker (dispositivo de hardware) e conecte-o à sua estação forense via USB/SATA. 
 
-Academia de Forense Digital
 2. Bloqueio por Software (Caso não use hardware)
 Se não possuir o bloqueador físico, você deve bloquear a escrita via sistema operacional. 
 
-www.gov.br
 No Linux:
 Identifique o disco (ex: /dev/sdb) e force o modo leitura:
 sudo hdparm -r1 /dev/sdb 
 
-UOL
 No Windows:
 Abra o prompt de comando (CMD) como Administrador e digite diskpart: 
 
-Kufunda.net
 Digite list disk e identifique o número do disco alvo.
 Selecione o disco: select disk X (substitua pelo número correto).
-Ative o atributo de leitura: attributes disk set readonly.
+Ative o atributo de leitura: attributes disk set readonly.<br>
+
 3. Utilização de Sistemas Operacionais Forenses
 A melhor prática consiste em iniciar o computador de análise com uma distribuição Linux focada em forense.
 O CAINE ou o DEFT são sistemas operacionais inicializáveis (Live USB) que possuem bloqueio automático de escrita nativo em todas as mídias conectadas.
 Eles garantem que o sistema operacional de análise não toque ou modifique o disco alvo durante o processo. 
+<br>
+
 4. Criação da Imagem Forense
 Após montar o disco em modo leitura, nunca analise o disco original diretamente. Você deve criar uma imagem (cópia bit-a-bit). 
-
-www.gov.br
 Utilize ferramentas de duplicação forense para criar um arquivo de imagem (como .E01 ou .raw).
-O FTK Imager (Windows) ou ferramentas de linha de comando como dc3dd são referências no mercado. 
+O FTK Imager (Windows) ou ferramentas de linha de comando como dc3dd são referências no mercado.
+<br>
 
-www.gov.br
- +1
 5. Cálculo e Verificação de Hash
 Para garantir que a cópia é idêntica ao original:
 Calcule o valor de hash (como MD5 ou SHA-256) do disco original antes da cópia e do arquivo de imagem gerado ao final.
 Os valores de hash devem ser exatamente iguais, o que prova a integridade da evidência para fins legais. 
-
-www.gov.br
 A partir desse ponto, você realiza a análise forense utilizando a cópia exata do disco, preservando a mídia original intacta. 
 
