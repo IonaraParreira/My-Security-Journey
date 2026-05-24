@@ -1,4 +1,12 @@
 env
-.env
-venv/
 venv
+venv/
+.env
+# Bancos de dados locais (Segurança e SQLi)
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache do Python
+__pycache__/
+*.py[cod]
