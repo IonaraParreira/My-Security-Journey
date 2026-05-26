@@ -32,7 +32,7 @@ Aqui está o desmembramento
 
 ---
 
-📌 **Resumo de Bolso para o Back-end:**
+📌 **Resumo de Bolso**
 * **URL** = `Como eu chego lá?` (Protocolo + Domínio/Caminho)
 * **URN** = `Quem ou o que está lá?` (Nome/Identificador do recurso)
 * **URI** = `O endereço completo.` (A junção da URL com a URN)
