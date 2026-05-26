@@ -17,3 +17,10 @@ Segurança em Wi-Fi e Nuvem: Proteger redes sem fio com criptografia forte (WPA3
 
 
 >Entender o básico de sistemas operacionais, tanto Windows quanto Linux, além de virtualização, é essencial para configurar laboratórios e entender o ambiente a ser protegido.
+
+<h3>Tipos de Redes</h3>
+LAN - É focado no local
+
+WAN - Adequado para comunicação de longa distância e cobertura global
+
+>Protocolo mais importante para se comunicar e usar boa parte da internet é o protocolo TCP-IP
