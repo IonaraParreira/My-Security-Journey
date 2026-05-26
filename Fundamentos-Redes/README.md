@@ -84,6 +84,11 @@ Responsável por pegar os dados da aplicação, dividi-los em pedaços e garanti
 Como humanos não decoram números de IP, utilizamos o **DNS (Domain Name System)**, que funciona como a lista telefônica da internet, traduzindo URLs (`google.com`) nos IPs reais dos servidores.
 
 * **Ferramenta Útil:** `ping <url>` (testa a conectividade com o servidor e verifica se o DNS está resolvendo o nome corretamente).
+Exemplo: api.meubackend.com/usuarios(é apenas um um exemplo fictício (um nome ilustrativo) para mostrar como seria a estrutura de uma URL de API de verdade. Como ninguém comprou ou registrou esse domínio na internet real, o DNS não consegue encontrar um IP para ele)
+<img width="742" height="879" alt="Captura de tela 2026-05-26 142606" src="https://github.com/user-attachments/assets/dfb5635f-0c3a-40b2-9cae-feb40a22581e" />
+
+Usando o ping api.meubackend.com no CMD do terminal, verá esse resultado:
+<img width="963" height="244" alt="Captura de tela 2026-05-26 150110" src="https://github.com/user-attachments/assets/c772c8e1-12e2-4439-bd86-4a8ebe371fed" />
 
 ---
 
