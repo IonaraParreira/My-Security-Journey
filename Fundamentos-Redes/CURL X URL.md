@@ -3,6 +3,10 @@ O CURL (frequentemente escrito como curl) é uma ferramenta de linha de comando 
 
 Quando você digita curl https://api.github.com no seu terminal, o curl age exatamente como um navegador de internet sem interface gráfica. Ele monta uma requisição HTTP, envia para o servidor e joga a resposta na sua tela. Por isso, ele é classificado como um Cliente HTTP (assim como o Google Chrome, o Firefox ou o Postman).
 
+Digitando curl https://api.github.com você encontrará algo do tipo:
+<img width="1647" height="791" alt="Captura de tela 2026-05-26 141417" src="https://github.com/user-attachments/assets/3021a0fb-3677-440e-9799-e25e17e630a3" />
+
+
 <h1>📍 O que é a URL? (O Endereço)</h1>
 A URL (Uniform Resource Locator) não é um programa, ela é simplesmente o endereço de onde o recurso está na internet. É o texto que você digita.
 
