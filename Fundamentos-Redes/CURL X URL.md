@@ -13,7 +13,7 @@ Quando se clica no link https://api.github.com de dentro do arquivo no GitHub, o
 
 O servidor do GitHub recebeu o pedido e respondeu com o conteúdo configurado para aquela URL. Como essa é a URL da API deles (feita para sistemas e programas conversarem entre si, e não para usuários humanos verem um site bonito), ela não devolve uma página com cores, botões ou imagens. Ela devolve dados puros ou como está vendo,esse texto esquisito
 
-<h2>Prazer,sou o JSON</h2>
+<h2>Prazer,sou o JSON😎</h2>
 Esse formato de texto cheio de chaves { }, aspas e dois-pontos que você está vendo na imagem acima,chama-se JSON (JavaScript Object Notation).
 
 O JSON é o padrão mais utilizado no mundo por programadores Back-end para transmitir dados entre o servidor e o cliente. Se você olhar com atenção, o GitHub está devolvendo uma "lista" de outros endereços importantes da API deles. Por exemplo:
