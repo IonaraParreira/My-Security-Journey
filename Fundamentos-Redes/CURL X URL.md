@@ -15,4 +15,4 @@ Para fazer uma requisição web acontecer, o Cliente precisa de uma URL:
 
 🗣️ "O Cliente (Chrome ou CURL) utiliza uma URL (https://...) para saber onde bater e pedir os dados."
 
-Portanto, no seu resumo do GitHub, a frase está certinha: Navegador e CURL são exemplos de Clientes (as ferramentas que fazem o pedido), enquanto a URL é apenas o "mapa/endereço" que esses clientes usam para achar o servidor.
+Portanto,o navegador e CURL são exemplos de Clientes (as ferramentas que fazem o pedido), enquanto a URL é apenas o "mapa/endereço" que esses clientes usam para achar o servidor.
