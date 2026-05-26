@@ -88,8 +88,9 @@ Exemplo: api.meubackend.com/usuarios(é apenas um um exemplo fictício (um nome 
 <img width="742" height="879" alt="Captura de tela 2026-05-26 142606" src="https://github.com/user-attachments/assets/dfb5635f-0c3a-40b2-9cae-feb40a22581e" /><br>
 
 O erro significa:
->NXDOMAIN significa Non-Existent Domain (ou Domínio Não Existente)
-O servidor de DNS procurou em toda a internet e respondeu: "Olha, esse nome de domínio não está registrado em lugar nenhum do planeta😅. Ele não existe"
+>NXDOMAIN significa Non-Existent Domain (ou Domínio Não Existente)<br>
+O servidor de DNS procurou em toda a internet e respondeu: "Olha, esse nome de domínio não está registrado em lugar nenhum do planeta😅. Ele não existe"<br>
+
 Usando o ping api.meubackend.com no CMD do terminal, verá esse resultado👇🏻:
 
 <br>
