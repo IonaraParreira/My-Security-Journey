@@ -59,6 +59,14 @@ Para que máquinas diferentes conversem, utilizamos a padronização do modelo T
 * **HTTP / HTTPS:** Transferência de dados na web (HTTPS possui criptografia).
 * **Ferramenta Útil:** `curl -v <url>` (permite inspecionar os cabeçalhos de uma requisição HTTP real).
 
+AO DIGITAR 
+
+curl -v https://api.github.com
+
+Irá ver mais detalhes
+<img width="951" height="1049" alt="Captura de tela 2026-05-26 142236" src="https://github.com/user-attachments/assets/9831eaca-dfb4-44b2-9abb-89265f99e422" />
+
+
 ### 🚚 Camada de Transporte (Como os dados viajam)
 Responsável por pegar os dados da aplicação, dividi-los em pedaços e garantir a entrega.
 
