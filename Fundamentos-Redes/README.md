@@ -24,3 +24,58 @@ LAN - É focado no local
 WAN - Adequado para comunicação de longa distância e cobertura global
 
 >Protocolo mais importante para se comunicar e usar boa parte da internet é o protocolo TCP-IP
+
+# 🌐 Guia Intuitivo de Redes e Protocolos para Back-end
+
+Notas de estudo pessoais sobre a infraestrutura da internet, fluxos de comunicação e protocolos da camada de transporte.
+
+---
+
+## 📌 1. O Fluxo da Web (Cliente x Servidor)
+
+Quando desenvolvemos localmente (`localhost`), estamos em um ambiente controlado e isolado. Ao publicar a aplicação na internet, passamos a lidar com uma infraestrutura global (roteadores, switches e cabos submarinos) e novos desafios como **latência**, **segurança** e **custo**.
+
+A comunicação baseia-se no modelo **Cliente-Servidor**:
+1. **Cliente (ex: Navegador, CURL):** Dispara uma **Requisição HTTP** utilizando as regras do protocolo para solicitar um recurso.
+2. **Servidor:** Processa a requisição e devolve uma **Resposta HTTP** (HTML, CSS, JSON) que o cliente consegue interpretar.
+
+---
+
+## 🌍 2. Escopo Geográfico das Redes
+
+| Tipo de Rede | Abrangência | Exemplo Prático | Características |
+| :--- | :--- | :--- | :--- |
+| **LAN** *(Local Area)* | Restrita (Salas, prédios) | Redes domésticas, LAN Houses | Altíssima velocidade, baixíssima latência, privada e barata. |
+| **WAN** *(Wide Area)* | Países, continentes | Sistema de telefonia | Velocidade e latência variáveis, alto custo, mantida por teles. |
+| **Internet** | Global | A rede mundial | Interconexão pública de várias redes do planeta. |
+
+---
+
+## 🥞 3. O Modelo TCP/IP na Prática
+
+Para que máquinas diferentes conversem, utilizamos a padronização do modelo TCP/IP, organizado em camadas:
+
+### 🚀 Camada de Aplicação (Onde o código roda)
+* **HTTP / HTTPS:** Transferência de dados na web (HTTPS possui criptografia).
+* **Ferramenta Útil:** `curl -v <url>` (permite inspecionar os cabeçalhos de uma requisição HTTP real).
+
+### 🚚 Camada de Transporte (Como os dados viajam)
+Responsável por pegar os dados da aplicação, dividi-los em pedaços e garantir a entrega.
+
+* **TCP (Transmission Control Protocol):** Focado em **integridade**. Garante entrega ordenada e sem perdas (essencial para páginas web e APIs REST). Utiliza o *3-Way Handshake* para abrir conexões.
+* **UDP (User Datagram Protocol):** Focado em **velocidade**. Transmissão assíncrona, não garante a ordem e nem se o dado chegou (ideal para streamings e jogos online).
+* **Ferramenta Útil:** `telnet <ip> <porta>` (usado para testar conexões TCP manuais).
+
+### 🗺️ Camada de Internet (Endereçamento)
+* **IP (Internet Protocol):** O identificador único de cada dispositivo na rede, funcionando exatamente como um **CEP**.
+
+---
+
+## 🔍 4. Resolução de Nomes (DNS)
+
+Como humanos não decoram números de IP, utilizamos o **DNS (Domain Name System)**, que funciona como a lista telefônica da internet, traduzindo URLs (`google.com`) nos IPs reais dos servidores.
+
+* **Ferramenta Útil:** `ping <url>` (testa a conectividade com o servidor e verifica se o DNS está resolvendo o nome corretamente).
+
+---
+*Notas de estudo desenvolvidas para fixação de conceitos de arquitetura e infraestrutura web.*
