@@ -23,7 +23,7 @@ LAN - É focado no local
 
 WAN - Adequado para comunicação de longa distância e cobertura global
 
->Protocolo mais importante para se comunicar e usar boa parte da internet é o protocolo TCP-IP
+>Protocolo mais importante para se comunicar e usar boa parte da internet é o protocolo TCP/IP
 
 # 🌐 Guia Intuitivo de Redes e Protocolos para Back-end
 
@@ -78,4 +78,4 @@ Como humanos não decoram números de IP, utilizamos o **DNS (Domain Name System
 * **Ferramenta Útil:** `ping <url>` (testa a conectividade com o servidor e verifica se o DNS está resolvendo o nome corretamente).
 
 ---
-*Notas de estudo desenvolvidas para fixação de conceitos de arquitetura e infraestrutura web.*
+
