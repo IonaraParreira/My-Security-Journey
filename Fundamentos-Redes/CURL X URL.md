@@ -12,7 +12,8 @@ A URL (Uniform Resource Locator) não é um programa, ela é simplesmente o ende
 
 https://www.google.com ➡️ Isso é uma URL.
 
-https://api.meubackend.com/usuarios ➡️ Isso é outra URL.
+VIsualizará <img width="837" height="1025" alt="Captura de tela 2026-05-26 142523" src="https://github.com/user-attachments/assets/cf25e8b1-6e38-4126-bc40-5e76b187c3ab" />
+
 
 💡 Resumo da Ópera
 Para fazer uma requisição web acontecer, o Cliente precisa de uma URL:
