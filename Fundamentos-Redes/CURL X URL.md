@@ -6,10 +6,10 @@ Quando você digita curl https://api.github.com no seu terminal, o curl age exat
 Digitando curl https://api.github.com você encontrará algo do tipo:
 <img width="1647" height="791" alt="Captura de tela 2026-05-26 141417" src="https://github.com/user-attachments/assets/3021a0fb-3677-440e-9799-e25e17e630a3" />
 
-Acima é um exemplo do contato direto com o retorno de uma API Web real.
+👆🏻Acima é um exemplo do contato direto com o retorno de uma API Web real.
 
 
-Quando se clica no link https://api.github.com de dentro do seu arquivo no GitHub, o navegador abriu uma nova aba e fez uma requisição HTTP do tipo GET para esse endereço.
+Quando se clica no link https://api.github.com de dentro do arquivo no GitHub, o navegador abri uma nova aba e faz uma requisição HTTP do tipo GET para esse endereço.
 
 O servidor do GitHub recebeu o pedido e respondeu com o conteúdo configurado para aquela URL. Como essa é a URL da API deles (feita para sistemas e programas conversarem entre si, e não para usuários humanos verem um site bonito), ela não devolve uma página com cores, botões ou imagens. Ela devolve dados puros ou como está vendo,esse texto esquisito
 
