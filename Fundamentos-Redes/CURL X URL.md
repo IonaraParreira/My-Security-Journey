@@ -26,8 +26,8 @@ Na linha de user_url, ele mostra a estrutura para buscar informações de um usu
 A URL (Uniform Resource Locator) não é um programa, ela é simplesmente o endereço de onde o recurso está na internet. É o texto que você digita.
 
 https://www.google.com ➡️ Isso é uma URL.
-
-VIsualizará <img width="837" height="1025" alt="Captura de tela 2026-05-26 142523" src="https://github.com/user-attachments/assets/cf25e8b1-6e38-4126-bc40-5e76b187c3ab" />
+<br>Visualizará <br>
+<img width="837" height="1025" alt="Captura de tela 2026-05-26 142523" src="https://github.com/user-attachments/assets/cf25e8b1-6e38-4126-bc40-5e76b187c3ab" />
 
 
 💡 Resumo da Ópera
