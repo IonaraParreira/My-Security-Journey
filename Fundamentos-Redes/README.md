@@ -87,7 +87,9 @@ Como humanos não decoram números de IP, utilizamos o **DNS (Domain Name System
 Exemplo: api.meubackend.com/usuarios(é apenas um um exemplo fictício (um nome ilustrativo) para mostrar como seria a estrutura de uma URL de API de verdade. Como ninguém comprou ou registrou esse domínio na internet real, o DNS não consegue encontrar um IP para ele)
 <img width="742" height="879" alt="Captura de tela 2026-05-26 142606" src="https://github.com/user-attachments/assets/dfb5635f-0c3a-40b2-9cae-feb40a22581e" /><br>
 
-
+O erro significa:
+>NXDOMAIN significa Non-Existent Domain (ou Domínio Não Existente)
+O servidor de DNS procurou em toda a internet e respondeu: "Olha, esse nome de domínio não está registrado em lugar nenhum do planeta😅. Ele não existe"
 Usando o ping api.meubackend.com no CMD do terminal, verá esse resultado👇🏻:
 
 <br>
