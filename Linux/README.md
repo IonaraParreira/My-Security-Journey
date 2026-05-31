@@ -36,7 +36,10 @@ Segurança: Devido à sua estrutura de permissões e a grande comunidade que aud
 <img width="461" height="208" alt="image" src="https://github.com/user-attachments/assets/dfc9054c-8a04-44bf-b9de-7771cfd93801" />
 </p>
 
-Segurança Ofensiva Proativa: Ele permite que hackers éticos (white hats) e Red Teams ajam como invasores. Ao simular ataques reais, é possível encontrar e corrigir falhas de segurança em redes e sistemas antes que criminosos as explorem.
-Ferramentas Pré-instaladas: O sistema elimina a necessidade de instalar e configurar programas de segurança manualmente. Ele já inclui recursos renomados para mapeamento de redes (Nmap), varredura web (Burp Suite), exploração de vulnerabilidades (Metasploit) e análise de tráfego (Wireshark).
-Foco em Ambientes de Teste: O sistema é otimizado para tarefas de auditoria, e suas configurações são voltadas para facilitar a execução de comandos complexos e testes de penetração.
+Segurança Ofensiva Proativa: Ele permite que hackers éticos (white hats) e Red Teams ajam como invasores. Ao simular ataques reais, é possível encontrar e corrigir falhas de segurança em redes e sistemas antes que criminosos as explorem.<br>
+
+Ferramentas Pré-instaladas: O sistema elimina a necessidade de instalar e configurar programas de segurança manualmente. Ele já inclui recursos renomados para mapeamento de redes (Nmap), varredura web (Burp Suite), exploração de vulnerabilidades (Metasploit) e análise de tráfego (Wireshark).<br>
+
+Foco em Ambientes de Teste: O sistema é otimizado para tarefas de auditoria, e suas configurações são voltadas para facilitar a execução de comandos complexos e testes de penetração.<br>
+
 Versatilidade e Portabilidade: O Kali pode ser rodado diretamente de um pendrive (modo Live), instalado em máquinas virtuais, utilizado em contêineres e na nuvem, ou até mesmo em dispositivos móveis (Kali NetHunter) e minicomputadores como Raspberry Pi.
