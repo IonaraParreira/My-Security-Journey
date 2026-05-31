@@ -26,4 +26,17 @@ Linha de Comando (Terminal/Shell): Para muitos profissionais, o ambiente Linux �
 Por que ele é tão utilizado?
 Gratuito e Aberto: O sistema é livre para uso e seu código-fonte pode ser estudado e modificado por qualquer pessoa.
 Onipresente: Ele não está só em computadores. A maior parte da internet, servidores em nuvem, supercomputadores, smart TVs, roteadores e até o sistema Android dos celulares rodam sobre o ambiente Linux.
-Segurança: Devido à sua estrutura de permissões e a grande comunidade que audita o código, ele é amplamente adotado em servidores corporativos e infraestruturas de tecnologia da informação
+Segurança: Devido à sua estrutura de permissões e a grande comunidade que audita o código, ele é amplamente adotado em servidores corporativos e infraestruturas de tecnologia da informação<br>
+<br>
+
+>⚠️As ferramentas contidas no Kali Linux são extremamente potentes e devem ser operadas exclusivamente de maneira ética, legal e com autorização formal. O uso indevido contra redes ou sistemas de terceiros é considerado crime cibernético.
+
+<h1>Kali Linux</h1>
+<p align="center">
+<img width="461" height="208" alt="image" src="https://github.com/user-attachments/assets/dfc9054c-8a04-44bf-b9de-7771cfd93801" />
+</p>
+
+Segurança Ofensiva Proativa: Ele permite que hackers éticos (white hats) e Red Teams ajam como invasores. Ao simular ataques reais, é possível encontrar e corrigir falhas de segurança em redes e sistemas antes que criminosos as explorem.
+Ferramentas Pré-instaladas: O sistema elimina a necessidade de instalar e configurar programas de segurança manualmente. Ele já inclui recursos renomados para mapeamento de redes (Nmap), varredura web (Burp Suite), exploração de vulnerabilidades (Metasploit) e análise de tráfego (Wireshark).
+Foco em Ambientes de Teste: O sistema é otimizado para tarefas de auditoria, e suas configurações são voltadas para facilitar a execução de comandos complexos e testes de penetração.
+Versatilidade e Portabilidade: O Kali pode ser rodado diretamente de um pendrive (modo Live), instalado em máquinas virtuais, utilizado em contêineres e na nuvem, ou até mesmo em dispositivos móveis (Kali NetHunter) e minicomputadores como Raspberry Pi.
