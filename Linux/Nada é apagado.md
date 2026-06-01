@@ -53,17 +53,17 @@ Se você estiver em um terminal Linux (ou usando o WSL - Windows Subsystem for L
 Investigar as propriedades de um arquivo (Timestamps):
 
 Bash
-stat /etc/passwd
+stat /etc/passwd<br>
 Isso vai te mostrar detalhadamente os tempos de Acesso, Modificação e Alteração do arquivo mais importante de usuários do sistema.
 
 Ver quem logou recentemente no sistema:
 
 Bash
-last
+last<br>
 Este comando lê o arquivo binário /var/log/wtmp e te dá uma tabela limpa de quais usuários logaram, por onde (terminal local ou SSH) e quanto tempo ficaram conectados.
 
 Ver os logs de autenticação em tempo real (Simulação de Monitoramento):
 
 Bash
-tail -f /var/log/auth.log
+tail -f /var/log/auth.log<br>
 (Nota: Em algumas distribuições modernas que usam apenas o systemd-journald, você usaria o comando journalctl -u ssh ou journalctl _AUDIT_TYPE=1006).
