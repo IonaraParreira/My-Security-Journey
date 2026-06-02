@@ -20,9 +20,9 @@ C (Changed): Quando os metadados do arquivo (como permissões chmod ou dono chow
 
 B (Birth/Created): A data de criação original do arquivo (suportada nos sistemas de arquivos mais recentes).
 
-Ferramenta para ver isso: O comando stat nome_do_arquivo.
-
-3. O Diretório /var/log (A Mina de Ouro)
+Ferramenta para ver isso: O comando stat nome_do_arquivo.<br>
+<br>
+<h1>3. O Diretório /var/log (A Mina de Ouro)</h1>
 É aqui que o Linux centraliza as atividades do sistema. Para um perito, este diretório é o primeiro lugar a ser analisado após coletar a imagem do disco.
 
 /var/log/auth.log (ou /var/log/secure no RedHat/CentOS): Registra todas as tentativas de login (sucessos e falhas) e o uso do comando sudo. Essencial para rastrear ataques de força bruta.
@@ -31,39 +31,42 @@ Ferramenta para ver isso: O comando stat nome_do_arquivo.
 
 /var/log/wtmp e /var/log/utmp: Arquivos binários (não abrem no bloco de notas) que registram quem está logado no momento e o histórico de conexões/reboots do sistema.
 
-Como ler: Você usa os comandos last e lastb no terminal para interpretar esses arquivos.
-
-4. Persistência e Agendamento (Crontab e Systemd)
+Como ler: Você usa os comandos last e lastb no terminal para interpretar esses arquivos.<br>
+<br>
+<h1>4. Persistência e Agendamento (Crontab e Systemd)</h1>
 Assim como os malwares no Windows usam chaves de Registro para iniciar com o sistema, no Linux eles usam serviços ou tarefas agendadas para garantir que continuem rodando mesmo após um reboot.
 
 Cron Jobs: Arquivos em /etc/crontab e nos diretórios /etc/cron.*. Eles agendam tarefas para rodar repetidamente (ex: "execute este script oculto toda meia-noite").
 
-Systemd Services: Arquivos de configuração em /etc/systemd/system/. Um atacante pode criar um serviço falso (ex: nginx-update.service) que na verdade executa um artefato malicioso em segundo plano.
-
-5. Arquivos de Configuração de Rede (/etc)
+Systemd Services: Arquivos de configuração em /etc/systemd/system/. Um atacante pode criar um serviço falso (ex: nginx-update.service) que na verdade executa um artefato malicioso em segundo plano.<br>
+<br>
+<h1>5. Arquivos de Configuração de Rede (/etc)</h1>
 Para entender se o sistema foi modificado para redirecionar tráfego ou aceitar conexões estranhas:
 
 /etc/hosts: Pode ser adulterado para fazer técnicas de "DNS Spoofing" local (ex: apontar o domínio de um banco para o IP do atacante).
 
-/etc/resolv.conf: Mostra quais servidores DNS a máquina está usando. Atacantes costumam alterar isso para servidores DNS maliciosos controlados por eles.
-
-🛠️ Como praticar isso agora (No Terminal Linux)
+/etc/resolv.conf: Mostra quais servidores DNS a máquina está usando. Atacantes costumam alterar isso para servidores DNS maliciosos controlados por eles.<br>
+<br>
+<h1>🛠️ Como praticar isso agora (No Terminal Linux)</h1>
 Se você estiver em um terminal Linux (ou usando o WSL - Windows Subsystem for Linux no seu Windows), você pode rodar esses comandos para ver a forense acontecer:
 
 Investigar as propriedades de um arquivo (Timestamps):
 
 Bash<br>
-stat /etc/passwd<br>
+>stat /etc/passwd<br>
+
 Isso vai te mostrar detalhadamente os tempos de Acesso, Modificação e Alteração do arquivo mais importante de usuários do sistema.
 
 Ver quem logou recentemente no sistema:
 
 Bash<br>
-last<br>
+>last<br>
+
 Este comando lê o arquivo binário /var/log/wtmp e te dá uma tabela limpa de quais usuários logaram, por onde (terminal local ou SSH) e quanto tempo ficaram conectados.
 
 Ver os logs de autenticação em tempo real (Simulação de Monitoramento):
 
 Bash<br>
-tail -f /var/log/auth.log<br>
+>tail -f /var/log/auth.log<br>
+
 (Nota: Em algumas distribuições modernas que usam apenas o systemd-journald, você usaria o comando journalctl -u ssh ou journalctl _AUDIT_TYPE=1006).
