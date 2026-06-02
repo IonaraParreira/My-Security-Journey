@@ -1,15 +1,15 @@
-No Linux, a filosofia é diferente: "Tudo é um arquivo" (Everything is a file). Não existe um "Registro" centralizado como no Windows. Em vez disso, as evidências ficam espalhadas em arquivos de configuração de texto puro, logs estruturados e metadados do próprio sistema de arquivos (como o Ext4).
+No Linux, "Tudo é um arquivo" (Everything is a file). Não existe um "Registro" centralizado como no Windows. Em vez disso, as evidências ficam espalhadas em arquivos de configuração de texto puro, logs estruturados e metadados do próprio sistema de arquivos (como o Ext4).
 
-Aqui estão os equivalentes e os artefatos forenses mais importantes para você estudar no Linux hoje:
+Aqui estão os equivalentes e os artefatos forenses mais importantes para se estudar no Linux hoje:
 
-1. Histórico do Shell (.bash_history / .zsh_history)
+<h1>1. Histórico do Shell (.bash_history / .zsh_history)</h1>
 O equivalente mais direto (embora mais simples) ao Prefetch/Amcache do Windows para comandos executados. Cada usuário tem um arquivo oculto em sua pasta Home que guarda os últimos comandos digitados no terminal.
 
 O que ele revela: Quais comandos o suspeito executou, scripts que ele rodou ou ferramentas que baixou.
 
-Ponto de atenção forense: Um atacante experiente pode limpar esse arquivo usando history -c ou alterando a variável HISTSIZE=0. Por isso, peritos olham o timestamp do arquivo e buscam por fragmentos desses comandos que ainda possam estar isolados na memória RAM.
-
-2. Os Quatro Timestamps (Metadados do Ext4)
+Ponto de atenção forense: Um atacante experiente pode limpar esse arquivo usando history -c ou alterando a variável HISTSIZE=0. Por isso, peritos olham o timestamp do arquivo e buscam por fragmentos desses comandos que ainda possam estar isolados na memória RAM.<br>
+<br>
+<h1>2. Os Quatro Timestamps (Metadados do Ext4)</h1>
 No Windows, costumamos olhar a data de criação, modificação e acesso. No Linux (usando sistemas de arquivos modernos como Ext4), existem quatro timestamps críticos armazenados no Inode de cada arquivo, conhecidos como MACB:
 
 M (Modified): Quando o conteúdo do arquivo foi alterado.
