@@ -30,7 +30,7 @@ Este é um arquivo de registro especial que o Windows usa para rastrear a compat
 
 O que ele revela: Ele guarda o hash SHA-1 dos executáveis instalados ou rodados no sistema, além do caminho do arquivo e a data de criação. É excelente para analistas forenses cruzarem o hash encontrado com bancos de dados de malwares conhecidos (como o VirusTotal).
 
-🛠️ Como você pode ver isso na prática hoje (Sem instalar quase nada)
+<h1>🛠️ Como você pode ver isso na prática (Sem instalar quase nada)</h1>
 Como você está no Windows, pode explorar isso agora mesmo de duas formas:
 
 Nativamente (Olhar o Prefetch):
