@@ -1,6 +1,6 @@
 No Linux, "Tudo é um arquivo" (Everything is a file). Não existe um "Registro" centralizado como no Windows. Em vez disso, as evidências ficam espalhadas em arquivos de configuração de texto puro, logs estruturados e metadados do próprio sistema de arquivos (como o Ext4).
 
-Aqui estão os equivalentes e os artefatos forenses mais importantes para se estudar no Linux hoje:
+Aqui estão os equivalentes e os artefatos forenses mais importantes para se estudar no Linux:
 
 <h1>1. Histórico do Shell (.bash_history / .zsh_history)</h1>
 O equivalente mais direto (embora mais simples) ao Prefetch/Amcache do Windows para comandos executados. Cada usuário tem um arquivo oculto em sua pasta Home que guarda os últimos comandos digitados no terminal.
