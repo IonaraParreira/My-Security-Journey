@@ -44,3 +44,7 @@ A parametrização resolve isso separando o código SQL dos dados. O banco de da
 Abaixo, veja como isso funciona na prática usando Node.js (com o driver pg para PostgreSQL), uma realidade muito comum no Back-end:
 <img width="783" height="258" alt="image" src="https://github.com/user-attachments/assets/cc16c9cf-38c4-404d-82fb-0fc08aa64696" />
 
+<h3>Por que isso é 100% seguro contra SQLi?</h3>
+Pré-compilação: O banco de dados recebe SELECT * FROM usuarios WHERE email = $1 e já entende o plano de execução. Ele sabe que $1 precisa ser um texto literal.
+
+Neutralização: Se o atacante enviar ' OR '1'='1, o banco de dados vai procurar literalmente por um usuário cujo e-mail seja exatamente a string "' OR '1'='1". O comando malicioso perde totalmente o poder de execução.
