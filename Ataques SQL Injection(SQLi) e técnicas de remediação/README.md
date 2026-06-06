@@ -23,3 +23,12 @@ Como 1=1 é sempre verdadeiro(True),o banco ignora a checagem do nome e entrega 
 💻 Passo 2: O Script de Teste Prático em Python
 
 >sqlite3 é um banco de dados leve que já vem embutido no Python
+
+<h1>Ataques SQL Injection (SQLi) e Segurança na Web</h1>
+
+>mas focando na perspectiva de quem defende o código por trás dos panos
+
+Um conceito crucial para o desenvolvimento seguro: Query Parameterization (ou Prepared Statements), que é a principal arma contra o SQL Injection.
+
+<h3>O Problema: SQL Injection Dinâmico</h3>
+Quando construímos queries concatenando strings direto com a entrada do usuário, abrimos uma brecha catastrófica
