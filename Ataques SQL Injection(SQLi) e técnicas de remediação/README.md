@@ -24,11 +24,23 @@ Como 1=1 é sempre verdadeiro(True),o banco ignora a checagem do nome e entrega 
 
 >sqlite3 é um banco de dados leve que já vem embutido no Python
 
-<h1>Ataques SQL Injection (SQLi) e Segurança na Web</h1>
+<h1>Ataques SQL Injection (SQLi) e Segurança na Web(mais detalhes)</h1>
+<br>
 
 >mas focando na perspectiva de quem defende o código por trás dos panos
 
 Um conceito crucial para o desenvolvimento seguro: Query Parameterization (ou Prepared Statements), que é a principal arma contra o SQL Injection.
 
 <h3>O Problema: SQL Injection Dinâmico</h3>
-Quando construímos queries concatenando strings direto com a entrada do usuário, abrimos uma brecha catastrófica
+Quando se construí queries concatenando strings direto com a entrada do usuário, se abre uma brecha
+
+<img width="880" height="77" alt="image" src="https://github.com/user-attachments/assets/63615e97-787a-4a82-8cba-f95df4984fa0" />
+
+Se o atacante digitar ' OR '1'='1, ele quebra a lógica da sua query e consegue logar sem senha. Ele transformou dados em código executável.
+
+<h1>A Solução: Prepared Statements (Parametrização)</h1>
+A parametrização resolve isso separando o código SQL dos dados. O banco de dados compila a estrutura da query antes de receber os dados do usuário.
+
+Abaixo, veja como isso funciona na prática usando Node.js (com o driver pg para PostgreSQL), uma realidade muito comum no Back-end:
+<img width="783" height="258" alt="image" src="https://github.com/user-attachments/assets/cc16c9cf-38c4-404d-82fb-0fc08aa64696" />
+
