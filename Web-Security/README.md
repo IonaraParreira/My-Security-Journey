@@ -28,3 +28,14 @@ Previne ataques graves como **XSS** e **SQL Injection**. É a primeira linha de 
 * **CORS:** Controla **quem** pode acessar.
 * **SANITIZAÇÃO:** Controla **o que** entra.
 
+### 🔬 Laboratório Prático (Prova de Conceito)
+
+Para consolidar esses conceitos de defesa, desenvolvi um filtro de segurança focado no tratamento de dados de entrada.
+
+* **Projeto:** [Filtro de Segurança: Sanitizador e Validador de URL](https://github.com/IonaraParreira/Analise_de_Seguranca.git)
+* **O que foi aplicado na prática:**
+  * **Sanitização ativa:** Uso de métodos como `.strip()` para espaços, `.lower()` para padronização de caixa e `.rstrip('/')` para tratamento de barras residuais.
+  * **Prevenção de XSS:** Implementação da biblioteca nativa `html` (`html.escape`) para neutralizar caracteres de marcação perigosos (transformando `<` e `>` em entidades seguras).
+  * **Validação Estrita (Whitelisting):** Bloqueio rigoroso baseado em regras de negócio no backend para garantir conexões criptografadas (`https://`) e domínios corporativos válidos (`.com`).
+
+> 💡 **Resultado:** O script funciona como um firewall rudimentar de aplicação (AppSec), impedindo que inputs maliciosos avancem para as camadas internas do sistema.
