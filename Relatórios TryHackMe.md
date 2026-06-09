@@ -12,4 +12,4 @@ Percebi que, à medida que anotava a minha evolução nos laboratórios do site 
 
 
 2) O que foi que aprendi mais, como explicar para uma empresa. gerar check-list, mini relatóruio, o que eu vi. o impacto e qual recomendação que dou.
-3) 
+3) é importante equilibrar o ofensivo do defensivo;
