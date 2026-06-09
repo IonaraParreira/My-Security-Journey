@@ -11,5 +11,5 @@ Percebi que, à medida que anotava a minha evolução nos laboratórios do site 
 🔍Como evitar de acontecer?
 
 
-2) O que foi que aprendi mais, como explicar para uma empresa. gerar check-list, mini relatóruio, o que eu vi.
+2) O que foi que aprendi mais, como explicar para uma empresa. gerar check-list, mini relatóruio, o que eu vi. o impacto e qual recomendação que dou.
 3) 
