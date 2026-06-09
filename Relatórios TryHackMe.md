@@ -6,4 +6,10 @@ Percebi que, à medida que anotava a minha evolução nos laboratórios do site 
 🔍O que esse comando faz?<br>
 🔍O que as flags significam?<br>
 🔍Quando eu devo usá-lo?<br>
-🔍Quais alternativas eu tenho se ele falhar?
+🔍Quais alternativas eu tenho se ele falhar?<br>
+🔍Como descobrir algo?<br>
+🔍Como evitar de acontecer?
+
+
+2) O que foi que aprendi mais, como explicar para uma empresa. gerar check-list, mini relatóruio, o que eu vi.
+3) 
