@@ -21,5 +21,6 @@ Percebi que, à medida que anotava a minha evolução nos laboratórios do site 
 2) O que foi que aprendi mais, como explicar para uma empresa. gerar check-list, mini relatóruio, o que eu vi. o impacto e qual recomendação que dou.
 3) É importante equilibrar o ofensivo do defensivo.
 
-
+<h1>Fica a dica</h1>
+<img width="1121" height="537" alt="Captura de tela 2026-06-10 180958" src="https://github.com/user-attachments/assets/11346b64-cfe4-434a-936f-42df2051557e" />
 
