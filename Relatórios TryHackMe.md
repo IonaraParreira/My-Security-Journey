@@ -24,3 +24,12 @@ Percebi que, à medida que anotava a minha evolução nos laboratórios do site 
 <h1>Fica a dica</h1>
 <img width="1121" height="537" alt="Captura de tela 2026-06-10 180958" src="https://github.com/user-attachments/assets/11346b64-cfe4-434a-936f-42df2051557e" />
 
+<h3>Analista de Segurança</h3>
+São chamados de defensores digitais porque monitoram,investigam e respondem a ameaças,protegendo os ativos da organização.
+
+<h1> Endereço Mac</h1>
+É um número hexadecimal de doze caracteres(um sistema de numeração de base dezesseis usado em computação para representar números) dividido em dois e separado por dois pontos. Esses dois pontos são considerados separadosres. Por exemplo:Os seis primeiros caracteres representam a empresa que fabricou a interface de rede e os seis últimos são um número único.<br>
+<br>
+<p align="center">
+<img width="521" height="291" alt="image" src="https://github.com/user-attachments/assets/a22a3100-9dd0-4909-941a-fcc6de4044f2" />
+</p>
