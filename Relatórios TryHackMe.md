@@ -1,9 +1,4 @@
-<h1>Estudo voltado nas atividades de laboratóro do TryHackme</h1> 
-
-<p align="center">
-  <img width="177" height="188" alt="image" src="https://github.com/user-attachments/assets/829799bd-cabf-48bf-b85d-b7bef316b563" />
-  <img width="191" height="188" alt="image" src="https://github.com/user-attachments/assets/63414096-eaa7-40e7-b733-80347267a6ac" />
-</p>
+<h1>Estudo voltado nas atividades de laboratório do TryHackme <img src="https://github.com/user-attachments/assets/63414096-eaa7-40e7-b733-80347267a6ac" width="80" align="middle" alt="image" /></h1>
 
 <h1>Aprendendo o porquê e não o comando📌</h1>
 Percebi que, à medida que anotava a minha evolução nos laboratórios do site TryHackMe, conseguia reter melhor o aprendizado. A seguir, algumas das anotações: evidências de escolhas e...
@@ -33,3 +28,11 @@ São chamados de defensores digitais porque monitoram,investigam e respondem a a
 <p align="center">
 <img width="521" height="291" alt="image" src="https://github.com/user-attachments/assets/a22a3100-9dd0-4909-941a-fcc6de4044f2" />
 </p>
+
+<h1>Minha evolução da semana 😁</h1>
+<p align="center">
+<img width="350" height="287" alt="image" src="https://github.com/user-attachments/assets/7ff02ca4-7d65-438c-9bdf-f979bbe53938" /> 
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/4f99df7a-260e-4b9f-b455-c066b4eee900" />
+</p>
+
+
