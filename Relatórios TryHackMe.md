@@ -29,10 +29,17 @@ São chamados de defensores digitais porque monitoram,investigam e respondem a a
 <img width="521" height="291" alt="image" src="https://github.com/user-attachments/assets/a22a3100-9dd0-4909-941a-fcc6de4044f2" />
 </p>
 
+<h1> DNS</h1>
+
+>Sistema de Nomes de Domínio
+
+É uma maneira simples de nos comunicarmos com dispositivos na internet sem precisarmos memorizar números complexos.Em vez de memorizar 104.26.10.229, se pode memorizar tryhackme.com
+
 <h1>Minha evolução da semana 😁</h1>
 <p align="center">
 <img width="350" height="287" alt="image" src="https://github.com/user-attachments/assets/7ff02ca4-7d65-438c-9bdf-f979bbe53938" /> 
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/4f99df7a-260e-4b9f-b455-c066b4eee900" />
 </p>
+
 
 
