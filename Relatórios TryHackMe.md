@@ -35,6 +35,19 @@ São chamados de defensores digitais porque monitoram,investigam e respondem a a
 
 É uma maneira simples de nos comunicarmos com dispositivos na internet sem precisarmos memorizar números complexos.Em vez de memorizar 104.26.10.229, se pode memorizar tryhackme.com
 
+<h1>Fica a dica</h1>
+<img width="1276" height="800" alt="Captura de tela 2026-06-12 034552" src="https://github.com/user-attachments/assets/92498575-3c4b-49ed-bf63-af6f7245c851" />
+
+<h1>Relembrar é Viver</h1>
+
++------------------------------------+
+| APLICAÇÃO   -->   HTTP  /  FTP     |  (Seu código/APIs)
++------------------------------------+
+| TRANSPORTE  -->   TCP   /  UDP     |  (Garantia ou velocidade)
++------------------------------------+
+| REDE        -->       ICMP         |  (Diagnóstico/Ping)
++------------------------------------+
+
 <h1>Minha evolução da semana 😁</h1>
 <p align="center">
 <img width="516" height="287" alt="Captura de tela 2026-06-10 210742" src="https://github.com/user-attachments/assets/792caa75-6a54-4de9-9505-ca864cbed3e3" />
