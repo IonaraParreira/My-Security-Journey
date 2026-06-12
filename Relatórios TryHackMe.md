@@ -49,22 +49,19 @@ São chamados de defensores digitais porque monitoram,investigam e respondem a a
 | REDE        -->       ICMP         |  (Diagnóstico/Ping)
 +------------------------------------+
 ```
+<h1>ICMP (Internet Control Message Protocol)</h1>
+<h2>Camada de Rede / Internet (Infraestrutura e Rotas)</h2>
 
-1. Camada de Rede / Internet (Infraestrutura e Rotas)
-ICMP (Internet Control Message Protocol):
+>O que faz: Envia mensagens de status, relatório de erros e diagnósticos de rede.<br>
+>Na prática: É o protocolo nativo utilizado pelo comando ping para testar se um servidor está online.<br>
+<br>
+<h1>TCP (Transmission Control Protocol)</h1>
+<h2>Camada de Transporte (Como os dados viajam)</h2>
 
-O que faz: Envia mensagens de status, relatório de erros e diagnósticos de rede.
+>O que faz: Protocolo orientado à conexão. Ele garante que todos os pacotes cheguem na ordem correta e sem perdas (se um pacote falhar, ele reenvia).<br>
+>Na prática: Usado onde a segurança dos dados é crucial (APIs REST, bancos de dados, carregamento de páginas web).
 
-Na prática: É o protocolo nativo utilizado pelo comando ping para testar se um servidor está online.
-
-2. Camada de Transporte (Como os dados viajam)
-TCP (Transmission Control Protocol):
-
-O que faz: Protocolo orientado à conexão. Ele garante que todos os pacotes cheguem na ordem correta e sem perdas (se um pacote falhar, ele reenvia).
-
-Na prática: Usado onde a segurança dos dados é crucial (APIs REST, bancos de dados, carregamento de páginas web).
-
-UDP (User Datagram Protocol):
+<h1>UDP (User Datagram Protocol)</h1>
 
 O que faz: Protocolo não orientado à conexão. Ele apenas envia os dados o mais rápido possível, sem checar se chegaram ou se estão na ordem.
 
