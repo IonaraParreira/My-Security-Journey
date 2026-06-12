@@ -40,6 +40,7 @@ São chamados de defensores digitais porque monitoram,investigam e respondem a a
 
 <h1>Relembrar é Viver</h1>
 
+```
 +------------------------------------+
 | APLICAÇÃO   -->   HTTP  /  FTP     |  (Seu código/APIs)
 +------------------------------------+
@@ -47,7 +48,40 @@ São chamados de defensores digitais porque monitoram,investigam e respondem a a
 +------------------------------------+
 | REDE        -->       ICMP         |  (Diagnóstico/Ping)
 +------------------------------------+
+```
 
+1. Camada de Rede / Internet (Infraestrutura e Rotas)
+ICMP (Internet Control Message Protocol):
+
+O que faz: Envia mensagens de status, relatório de erros e diagnósticos de rede.
+
+Na prática: É o protocolo nativo utilizado pelo comando ping para testar se um servidor está online.
+
+2. Camada de Transporte (Como os dados viajam)
+TCP (Transmission Control Protocol):
+
+O que faz: Protocolo orientado à conexão. Ele garante que todos os pacotes cheguem na ordem correta e sem perdas (se um pacote falhar, ele reenvia).
+
+Na prática: Usado onde a segurança dos dados é crucial (APIs REST, bancos de dados, carregamento de páginas web).
+
+UDP (User Datagram Protocol):
+
+O que faz: Protocolo não orientado à conexão. Ele apenas envia os dados o mais rápido possível, sem checar se chegaram ou se estão na ordem.
+
+Na prática: Usado onde velocidade importa mais que perdas eventuais (Streaming de vídeo, jogos online, chamadas de voz, DNS).
+
+3. Camada de Aplicação (Onde o Back-end codifica)
+HTTP (Hypertext Transfer Protocol):
+
+O que faz: Protocolo de transferência de hipertexto. Base da comunicação da Web, funciona no modelo Cliente-Servidor (Request/Response).
+
+Na prática: É o que você usa para construir suas APIs (GET, POST, PUT, DELETE). Roda sob o protocolo TCP.
+
+FTP (File Transfer Protocol):
+
+O que faz: Protocolo específico para a transferência de arquivos de forma direta entre um cliente e um servidor.
+
+Na prática: Usado para fazer upload de arquivos de configuração, imagens ou backups para um servidor. Também roda sob o TCP.
 <h1>Minha evolução da semana 😁</h1>
 <p align="center">
 <img width="516" height="287" alt="Captura de tela 2026-06-10 210742" src="https://github.com/user-attachments/assets/792caa75-6a54-4de9-9505-ca864cbed3e3" />
