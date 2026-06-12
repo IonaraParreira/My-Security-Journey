@@ -59,26 +59,24 @@ São chamados de defensores digitais porque monitoram,investigam e respondem a a
 <h2>Camada de Transporte (Como os dados viajam)</h2>
 
 >O que faz: Protocolo orientado à conexão. Ele garante que todos os pacotes cheguem na ordem correta e sem perdas (se um pacote falhar, ele reenvia).<br>
->Na prática: Usado onde a segurança dos dados é crucial (APIs REST, bancos de dados, carregamento de páginas web).
-
+>Na prática: Usado onde a segurança dos dados é crucial (APIs REST, bancos de dados, carregamento de páginas web).<br>
+<br>
 <h1>UDP (User Datagram Protocol)</h1>
 
-O que faz: Protocolo não orientado à conexão. Ele apenas envia os dados o mais rápido possível, sem checar se chegaram ou se estão na ordem.
+>O que faz: Protocolo não orientado à conexão. Ele apenas envia os dados o mais rápido possível, sem checar se chegaram ou se estão na ordem.<br>
+>Na prática: Usado onde velocidade importa mais que perdas eventuais (Streaming de vídeo, jogos online, chamadas de voz, DNS).<br>
+<br>
+<h1>HTTP (Hypertext Transfer Protocol)</h1>
+<h2>Camada de Aplicação (Onde o Back-end codifica)</h2>
 
-Na prática: Usado onde velocidade importa mais que perdas eventuais (Streaming de vídeo, jogos online, chamadas de voz, DNS).
+>O que faz: Protocolo de transferência de hipertexto. Base da comunicação da Web, funciona no modelo Cliente-Servidor (Request/Response).<br>
+>Na prática: É o que você usa para construir suas APIs (GET, POST, PUT, DELETE). Roda sob o protocolo TCP.<br>
+<br>
+<h1>FTP (File Transfer Protocol)</h1>
 
-3. Camada de Aplicação (Onde o Back-end codifica)
-HTTP (Hypertext Transfer Protocol):
-
-O que faz: Protocolo de transferência de hipertexto. Base da comunicação da Web, funciona no modelo Cliente-Servidor (Request/Response).
-
-Na prática: É o que você usa para construir suas APIs (GET, POST, PUT, DELETE). Roda sob o protocolo TCP.
-
-FTP (File Transfer Protocol):
-
-O que faz: Protocolo específico para a transferência de arquivos de forma direta entre um cliente e um servidor.
-
-Na prática: Usado para fazer upload de arquivos de configuração, imagens ou backups para um servidor. Também roda sob o TCP.
+>O que faz: Protocolo específico para a transferência de arquivos de forma direta entre um cliente e um servidor.<br>
+>Na prática: Usado para fazer upload de arquivos de configuração, imagens ou backups para um servidor. Também roda sob o TCP.<br>
+<br>
 <h1>Minha evolução da semana 😁</h1>
 <p align="center">
 <img width="516" height="287" alt="Captura de tela 2026-06-10 210742" src="https://github.com/user-attachments/assets/792caa75-6a54-4de9-9505-ca864cbed3e3" />
