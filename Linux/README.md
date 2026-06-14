@@ -52,7 +52,15 @@ O rsyslog é o serviço nativo do Linux encarregado de gerenciar os logs do sist
 >Geralmente os ataques e os logs mais recentes ficam nas últimas linhas do arquivo.Para não ter que rolar um arquivo de mil linhas🙄, se usa o tail(significa "cauda"em inglês). 
 O que faz? Mostra apenas as últimas 10 linhas😁
 <h2>Como usar</h2>
+
+```bash
 tail /var/log/websrv-02/rsyslog_cron.log
+```
 
 <h1>#Ficaadica</h1>
-Se usar tail -f nome_do_arquivo, o terminal fica aberto mostrando o log atualizar em tempo real na tela toda toda vez que alguém tentar acessar o sistema
+Se usar 
+
+```bash
+tail -f nome_do_arquivo
+```
+o terminal fica aberto mostrando o log atualizar em tempo real na tela toda toda vez que alguém tentar acessar o sistema
