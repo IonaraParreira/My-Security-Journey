@@ -202,14 +202,13 @@ Buscando no Arquivo Morto: Solicito ao administrador da rede os logs de retenç�
 Começo a descompactar os logs antigos (log.tar.gz de 30 dias atrás). Na tela do meu monitor duplo, as linhas de texto rolam rápido em uma sala escura. De repente, eu congelo os olhos em uma linha: exatamente há 22 dias, o mesmo endereço IP suspeito tentou fazer um ataque de SQL Injection na página de login às 03:14 da madrugada. Eles estavam testando as defesas. Você acabou de traçar a linha do tempo do crime.
 
 ✂️ Passo 3: A Exclusão (Limpando os Rastros após o Caso Fechado)
-O caso foi resolvido, o relatório foi entregue, o invasor foi identificado e o processo judicial foi arquivado. Por lei e proteção de dados (LGPD), você não pode manter dados confidenciais daquela empresa ou de terceiros flutuando nos seus drives periciais para sempre. Chegou a hora do descarte seguro.
+O caso foi resolvido, o relatório foi entregue, o invasor foi identificado e o processo judicial foi arquivado. Por lei e proteção de dados (LGPD), eu não posso manter dados confidenciais daquela empresa ou de terceiros flutuando nos meus drives periciais para sempre. Chegou a hora do descarte seguro.
 
-O Perigo do "Deletar" Comum: Você sabe que clicar com o botão direito e ir em "Esvaziar Lixeira" apenas diz ao sistema operacional: "Este espaço está livre para ser gravado por cima", mas o arquivo continua lá, invisível, esperando alguém recuperá-lo.
+O Perigo do "Deletar" Comum: Eu sei que clicar com o botão direito e ir em "Esvaziar Lixeira" apenas diz ao sistema operacional: "Este espaço está livre para ser gravado por cima", mas o arquivo continua lá, invisível, esperando alguém recuperá-lo.
 
-A Incineração Digital: Você conecta o drive de evidências em uma máquina isolada. Você ativa uma ferramenta de destruição padrão DoD (Departamento de Defesa).
+A Incineração Digital: Eu conecto o drive de evidências em uma máquina isolada.Ativo uma ferramenta de destruição padrão DoD (Departamento de Defesa).
 
 A Execução: Na tela, um gráfico de barras avança enquanto o software escreve sequências aleatórias de 0 e 1 em cima do arquivo de log. Ele faz isso uma, duas, três vezes. É como pegar o documento, passar no triturador de papel, queimar as tiras e jogar as cinzas no oceano. O log desapareceu do universo digital para sempre. Nenhum hacker ou outro perito conseguirá recuperá-lo.
 
-Você limpa a mesa, guarda as ferramentas na maleta e fecha o seu relatório de investigação. Missão cumprida, Perita. O sistema está seguro por hoje. 😎💼
+Eu limpei a mesa, guardei as ferramentas na maleta e fechei o meu relatório de investigação. Missão cumprida! O sistema está seguro por hoje. 😎💼
 
-Você está indo bem😉, nunca deixe de acreditar em você, o seu sonho não pode terminar!
