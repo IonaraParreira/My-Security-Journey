@@ -154,3 +154,7 @@ Calcule o valor de hash (como MD5 ou SHA-256) do disco original antes da cópia 
 Os valores de hash devem ser exatamente iguais, o que prova a integridade da evidência para fins legais. 
 A partir desse ponto, você realiza a análise forense utilizando a cópia exata do disco, preservando a mídia original intacta. 
 
+<h1>Logs:Melhores práticas - armazenamento,retenção e exclusão </h1>
+*Defina a política de armazenamento,retenção e exclusão com base nas necessidades da empresa e nos requisitos legais.
+*Revisar e atualizar regularmente as diretrizes de acordo com as mudanças nas condições e regulamentações.
+*Automatize os processos de armazenamento,retenção e exclusão para garantir consistência e evitar erros humanos.
