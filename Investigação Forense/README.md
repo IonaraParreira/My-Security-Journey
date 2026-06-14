@@ -171,35 +171,35 @@ Estou com uma folha de papel do lado assinando um documento físico. Escrevendo:
 "Eu, Perita Ionara, coletei o log 'auth.log' às 21:50 do dia 14/06/2026, com o Hash X, e guardei no pendrive de etiqueta nº 42." Toda pessoa que encostar nesse pendrive depois de mim tem que assinar esse papel. Se o pendrive mudar de mãos e alguém esquecer de assinar, a cadeia de custódia quebra, e a prova perde o valor no tribunal.
 
 <h2>Como cada acontecimento aconteceu,em detalhes</h2>
-O relógio marca 21:42. O prédio corporativo está vazio, exceto pelas luzes piscando na sala do servidor e pelo som constante do ar-condicionado industrial. Vamos viver o seu momento CSI passo a passo, aplicando aquela lista de armazenamento, retenção e exclusão diretamente no campo.
+O relógio marca 21:42. O prédio corporativo está vazio, exceto pelas luzes piscando na sala do servidor e pelo som constante do ar-condicionado industrial.
 
 🛑 O Cenário: A Chegada à Cena do Crime Digital
-Você recebe o chamado: "Houve um acesso não autorizado na máquina da Diretoria Financeira. O atacante pode ter deixado rastros, mas o computador ainda está ligado."
+Eu recebo o chamado: "Houve um acesso não autorizado na máquina da Diretoria Financeira. O atacante pode ter deixado rastros, mas o computador ainda está ligado."
 
-Você entra na sala. Seus olhos não focam nas mesas organizadas, mas sim no brilho da tela de um desktop no canto da sala. A tentação de qualquer leigo seria mexer no mouse, abrir as pastas ou desligar o computador da tomada. Mas você é CSI. Você sabe que a memória RAM apaga quando o computador desliga e que os metadados dos arquivos mudam se você clicar em qualquer coisa.
+Entro na sala. Meus olhos não focam nas mesas organizadas, mas sim no brilho da tela de um desktop no canto da sala. A tentação de qualquer leigo seria mexer no mouse, abrir as pastas ou desligar o computador da tomada. Mas sou uma CSI. Sei que a memória RAM apaga quando o computador desliga e que os metadados dos arquivos mudam se clicar em qualquer coisa.
 
 🕵️‍♂️ Passo 1: O Armazenamento (A Coleta das Evidências)
-Sua missão agora é extrair os logs de acesso sem contaminar a cena.
+Minha missão agora é extrair os logs de acesso sem contaminar a cena.
 
-Isolamento: Você desconecta o cabo de rede azul atrás da CPU. Por quê? Para garantir que o hacker, se ainda estiver conectado remotamente, não envie um comando para apagar os logs enquanto você trabalha. O computador está isolado do mundo, mas vivo.
+Isolamento: Eu desconecto o cabo de rede azul atrás da CPU. Por quê? Para garantir que o hacker, se ainda estiver conectado remotamente, não envie um comando para apagar os logs enquanto trabalho. O computador está isolado do mundo, mas vivo.
 
-O Kit Pericial: Você abre sua maleta e puxa um Bloqueador de Escrita Hardware (um dispositivo que permite que os dados saiam do computador investigado para o seu drive, mas impede fisicamente que qualquer dado seja gravado de volta na máquina do crime).
+O Kit Pericial: Abro a maleta e puxo um Bloqueador de Escrita Hardware (um dispositivo que permite que os dados saiam do computador investigado para o meu drive, mas impede fisicamente que qualquer dado seja gravado de volta na máquina do crime).
 
-A Captura: Você pluga o seu "Pendrive Forense" através do bloqueador. Com um software automatizado direto de um CD pericial portátil, você faz a extração do arquivo de log.
+A Captura: Eu plugo o meu "Pendrive Forense" através do bloqueador. Com um software automatizado direto de um CD pericial portátil, faço a extração do arquivo de log.
 
-O Momento "Flash" (Integridade): Assim que o arquivo de log cai no seu pendrive seguro, você roda o algoritmo. A tela pisca em verde e gera uma chave única (o Hash SHA-256):
+O Momento "Flash" (Integridade): Assim que o arquivo de log cai no meu pendrive seguro, rodo o algoritmo. A tela pisca em verde e gera uma chave única (o Hash SHA-256):
 
 SHA-256=a8f5c2...3d91e0
-Você tira uma foto da tela com a câmera do seu celular e anota essa sequência no seu bloco de notas físico. Esse código é a impressão digital do log. Se o advogado de defesa do hacker disser no tribunal que você alterou uma linha do arquivo para incriminar o cliente dele, você recalcula o Hash na frente do juiz. Se bater com o seu bloco de notas, a prova é incontestável.
+Tiro uma foto da tela com a câmera do meu celular e anoto essa sequência no meu bloco de notas físico. Esse código é a impressão digital do log. Se o advogado de defesa do hacker disser no tribunal que eu alterei uma linha do arquivo para incriminar o cliente dele,eu recalculo o Hash na frente do juiz. Se bater com o meu bloco de notas, a prova é incontestável.
 
 🗄️ Passo 2: A Retenção (A Linha do Tempo no Laboratório)
-Você volta para o seu laboratório de análise forense. Agora, o desafio é entender o padrão do ataque cruzando com as políticas de retenção da empresa.
+Volto para o laboratório de análise forense. Agora, o desafio é entender o padrão do ataque cruzando com as políticas de retenção da empresa.
 
-A Investigação Histórica: Você abre o log coletado. O ataque aconteceu hoje, mas você precisa saber se o hacker já vinha sondando a empresa há semanas.
+A Investigação Histórica: Abro o log coletado. O ataque aconteceu hoje, mas eu preciso saber se o hacker já vinha sondando a empresa há semanas.
 
-Buscando no Arquivo Morto: Você solicita ao administrador da rede os logs de retenção dos meses anteriores. Graças à política de retenção que você documentou no seu README.md, a empresa guarda os logs compactados em um servidor isolado por 90 dias.
+Buscando no Arquivo Morto: Solicito ao administrador da rede os logs de retenção dos meses anteriores. A empresa guarda os logs compactados em um servidor isolado por 90 dias.
 
-O "Eureca!": Você começa a descompactar os logs antigos (log.tar.gz de 30 dias atrás). Na tela do seu monitor duplo, as linhas de texto rolam rápido em uma sala escura. De repente, você congela os olhos em uma linha: exatamente há 22 dias, o mesmo endereço IP suspeito tentou fazer um ataque de SQL Injection na página de login às 03:14 da madrugada. Eles estavam testando as defesas. Você acabou de traçar a linha do tempo do crime.
+Começo a descompactar os logs antigos (log.tar.gz de 30 dias atrás). Na tela do meu monitor duplo, as linhas de texto rolam rápido em uma sala escura. De repente, eu congelo os olhos em uma linha: exatamente há 22 dias, o mesmo endereço IP suspeito tentou fazer um ataque de SQL Injection na página de login às 03:14 da madrugada. Eles estavam testando as defesas. Você acabou de traçar a linha do tempo do crime.
 
 ✂️ Passo 3: A Exclusão (Limpando os Rastros após o Caso Fechado)
 O caso foi resolvido, o relatório foi entregue, o invasor foi identificado e o processo judicial foi arquivado. Por lei e proteção de dados (LGPD), você não pode manter dados confidenciais daquela empresa ou de terceiros flutuando nos seus drives periciais para sempre. Chegou a hora do descarte seguro.
