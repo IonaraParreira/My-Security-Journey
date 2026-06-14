@@ -81,6 +81,3 @@ São chamados de defensores digitais porque monitoram,investigam e respondem a a
 <p align="center">
 <img width="512" height="332" alt="image" src="https://github.com/user-attachments/assets/337dc208-80f8-439e-92b7-dd62e223ad66" />
 </p>
-
-
-
