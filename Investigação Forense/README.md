@@ -65,7 +65,9 @@ Retenção (Guarda/Histórico): Quando eu fui buscar os logs antigos compactados
 
 Exclusão (Descarte Seguro): Quando o caso acabou e eu usei o método de trituração digital (sobrescrevendo com zeros e uns) para sumir com o arquivo para sempre, cumprindo as leis de privacidade.
 
-<h1>Capturar Dados antes que o computador seja desligado.</h1>(o 🖥️ é a sua testemunha mais importante.)
+<h1>Outros detalhes a respeito da coleta</h1>
+
+<h2>Capturar Dados antes que o computador seja desligado.</h2>(o 🖥️ é a sua testemunha mais importante.)
 
 <br>Seus olhos não focam no corpo, 
 nem nas marcas de sangue na parede, mas sim no brilho da tela de um desktop no canto da sala.
