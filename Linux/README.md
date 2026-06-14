@@ -46,3 +46,6 @@ Versatilidade e Portabilidade: O Kali pode ser rodado diretamente de um pendrive
 
 <h1>O que é o rsyslog?</h1>
 O rsyslog é o serviço nativo do Linux encarregado de gerenciar os logs do sistema operacional.Ele funciiona como um "diário de bordo" do computador,anotando tudo o que acontece em segundo plano a cada segundo.
+
+<h1>O tal comando tail😁</h1>
+>Geralmente os ataques e os logs mais recentes ficam nas últimas linhas do arquivo.Para não ter que rolar um arquivo de mil linhas
