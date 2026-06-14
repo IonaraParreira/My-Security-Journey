@@ -48,4 +48,11 @@ Versatilidade e Portabilidade: O Kali pode ser rodado diretamente de um pendrive
 O rsyslog é o serviço nativo do Linux encarregado de gerenciar os logs do sistema operacional.Ele funciiona como um "diário de bordo" do computador,anotando tudo o que acontece em segundo plano a cada segundo.
 
 <h1>O tal comando tail😁</h1>
->Geralmente os ataques e os logs mais recentes ficam nas últimas linhas do arquivo.Para não ter que rolar um arquivo de mil linhas
+
+>Geralmente os ataques e os logs mais recentes ficam nas últimas linhas do arquivo.Para não ter que rolar um arquivo de mil linhas🙄, se usa o tail(significa "cauda"em inglês). 
+O que faz? Mostra apenas as últimas 10 linhas😁
+<h2>Como usar</h2>
+tail /var/log/websrv-02/rsyslog_cron.log
+
+<h1>#Ficaadica</h1>
+Se usar tail -f nome_do_arquivo, o terminal fica aberto mostrando o log atualizar em tempo real na tela toda toda vez que alguém tentar acessar o sistema
