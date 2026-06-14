@@ -43,3 +43,6 @@ Ferramentas Pré-instaladas: O sistema elimina a necessidade de instalar e confi
 Foco em Ambientes de Teste: O sistema é otimizado para tarefas de auditoria, e suas configurações são voltadas para facilitar a execução de comandos complexos e testes de penetração.<br>
 
 Versatilidade e Portabilidade: O Kali pode ser rodado diretamente de um pendrive (modo Live), instalado em máquinas virtuais, utilizado em contêineres e na nuvem, ou até mesmo em dispositivos móveis (Kali NetHunter) e minicomputadores como Raspberry Pi.
+
+<h1>O que é o rsyslog?</h1>
+O rsyslog é o serviço nativo do Linux encarregado de gerenciar os logs do sistema operacional.Ele funciiona como um "diário de bordo" do computador,anotando tudo o que acontece em segundo plano a cada segundo.
