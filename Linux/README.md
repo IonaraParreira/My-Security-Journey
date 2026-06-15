@@ -64,3 +64,20 @@ Se usar
 tail -f nome_do_arquivo
 ```
 o terminal fica aberto mostrando o log atualizar em tempo real na tela toda toda vez que alguém tentar acessar o sistema
+
+>Dica: Se pode usar o comando `cat` para exibir o conteúdo de um arquivo dentro de diretórios sem precisar navegar até eçe,usando `cat`seguido do nome do diretório. Ex:
+
+```bash
+cat/home/ubuntu/Documents/todo.txt
+```
+Às vezes, informações como nomes de usuário,senhas,parâmetros ou configurações são armazenadas em arquivos que podem ser recuperados com o comando "cat".<br>
+<br>
+
+>Outra dica: Para se localizar o caminho completo do diretório atual.
+
+```basch
+tryhackme@linux1:~/Documents$ pwd
+/home/ubuntu/Documents
+tryhackme@linux1:~/Documents$
+```
+
