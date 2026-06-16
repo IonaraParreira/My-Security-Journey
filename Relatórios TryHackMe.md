@@ -77,7 +77,11 @@ São chamados de defensores digitais porque monitoram,investigam e respondem a a
 >O que faz: Protocolo específico para a transferência de arquivos de forma direta entre um cliente e um servidor.<br>
 >Na prática: Usado para fazer upload de arquivos de configuração, imagens ou backups para um servidor. Também roda sob o TCP.<br>
 <br>
+
+<h1>Importante!</h1>
+<img width="1442" height="427" alt="Captura de tela 2026-06-16 143717" src="https://github.com/user-attachments/assets/63b9954c-22e4-4005-96fe-4705bb2949ef" />
+
 <h1>Minha evolução da semana 😁</h1>
 <p align="center">
-<img width="482" height="311" alt="image" src="https://github.com/user-attachments/assets/a297278b-eecd-414c-a054-c6af3c1c9f97" />
+<img width="495" height="326" alt="image" src="https://github.com/user-attachments/assets/e549b95e-27da-4325-9291-9afddcc60f5e" />
 </p>
