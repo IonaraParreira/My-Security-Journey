@@ -83,5 +83,5 @@ São chamados de defensores digitais porque monitoram,investigam e respondem a a
 
 <h1>Minha evolução da semana 😎</h1>
 <p align="center">
-<img width="491" height="313" alt="image" src="https://github.com/user-attachments/assets/dc63fb01-488c-43d1-8182-3733edbc5e1b" />
+<img width="497" height="317" alt="image" src="https://github.com/user-attachments/assets/ac423089-31b7-46ac-a6d5-799ea2338723" />
 </p>
