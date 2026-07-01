@@ -79,9 +79,12 @@ São chamados de defensores digitais porque monitoram,investigam e respondem a a
 <br>
 
 <h1>Importante!</h1>
-<img width="1442" height="427" alt="Captura de tela 2026-06-16 143717" src="https://github.com/user-attachments/assets/63b9954c-22e4-4005-96fe-4705bb2949ef" />
+<img width="1442" height="427" alt="Captura de tela 2026-06-16 143717" src="https://github.com/user-attachments/assets/63b9954c-22e4-4005-96fe-4705bb2949ef" /><br>
+
+<h1>Olha o oculto!</h1>
 
 >Pasta compartilhada oculta
+
 Para achar: Abrir o Gerenciamento do Computador> executar `mkdir` compmgmt.msc> Pastas Compartilhadas> Compartilhamentos
 
 <h1>Minha evolução da semana 😎</h1>
