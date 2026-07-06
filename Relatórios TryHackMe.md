@@ -87,6 +87,15 @@ São chamados de defensores digitais porque monitoram,investigam e respondem a a
 
 Para achar: Abrir o Gerenciamento do Computador> executar `mkdir` compmgmt.msc> Pastas Compartilhadas> Compartilhamentos
 
+<h1>Resumo da Semana</h1>
+<img width="1103" height="775" alt="Captura de tela 2026-07-06 094759" src="https://github.com/user-attachments/assets/dd681fcd-4471-47a9-b40d-77f0fa5f7d67" />
+
+<img width="1227" height="762" alt="Captura de tela 2026-07-06 094825" src="https://github.com/user-attachments/assets/556d8a09-8342-4e29-9c93-0af872750322" />
+
+<img width="1187" height="575" alt="Captura de tela 2026-07-06 095040" src="https://github.com/user-attachments/assets/2e72d912-3ced-4244-bf96-3b17008dd325" />
+
+
+
 <h1>Minha evolução da semana 😎</h1>
 <p align="center">
 <img width="477" height="317" alt="image" src="https://github.com/user-attachments/assets/e5e19f22-7602-4407-ad93-3b2678af8072" />
