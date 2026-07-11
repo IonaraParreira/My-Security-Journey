@@ -81,6 +81,9 @@ São chamados de defensores digitais porque monitoram,investigam e respondem a a
 <h1>Importante!</h1>
 <img width="1442" height="427" alt="Captura de tela 2026-06-16 143717" src="https://github.com/user-attachments/assets/63b9954c-22e4-4005-96fe-4705bb2949ef" /><br>
 
+<img width="1077" height="775" alt="Captura de tela 2026-07-11 084021" src="https://github.com/user-attachments/assets/b28e86ed-724e-4343-9e1b-19233ff5c770" />
+
+
 <h1>Olha o oculto!</h1>
 
 >Pasta compartilhada oculta
