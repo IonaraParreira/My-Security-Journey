@@ -109,6 +109,26 @@ Para achar: Abrir o Gerenciamento do Computador> executar `mkdir` compmgmt.msc> 
   <img width="1045" height="661" alt="Captura de tela 2026-07-13 112743" src="https://github.com/user-attachments/assets/f1a044a5-a5d1-4005-9e79-aa277bca90cd" />
 </p>
 
+1. SIEM created an alert about FW-NY-01 firewall brute-force.Who should triage the alert?
+>R: Lucas | SOC L1 Analyst
+
+2. The HR manager Anna launched a phishing malware.Who should make a deep analysis? 
+>R: Susan |SOC L2 Analyst
+
+3. The office in France was somehow hit with ransomware.Immediate response is required!
+>R: Robert |CERT Lead
+
+4. Our servers storing the credit cards require PCI DSS audit. Who can help us here?
+>R: Nick| GRC Auditor
+
+5. Who can check the new version of tryhackme.thm for vulnerabilities?
+>R:Ben | Penetration Tester
+
+6. The SIEM is unavailable due to a storage limit.Who can investigate the issue?
+>R: Eugen | SOC Engineer
+
+7. FIN7 threat group actively targets our company.Who can analyze their tactics?
+>R: Alice | Threat Researcher
 
 <h1>Minha evolução da semana 😎</h1>
 <p align="center">
