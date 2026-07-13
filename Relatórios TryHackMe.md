@@ -97,6 +97,17 @@ Para achar: Abrir o Gerenciamento do Computador> executar `mkdir` compmgmt.msc> 
 
 <img width="1187" height="575" alt="Captura de tela 2026-07-06 095040" src="https://github.com/user-attachments/assets/2e72d912-3ced-4244-bf96-3b17008dd325" />
 
+<h1>Equipe</h1>
+<p align="center">
+  <img width="1407" height="199" alt="Captura de tela 2026-07-13 111151" src="https://github.com/user-attachments/assets/a9aff94e-725c-406a-92a7-2dff17895dc7" />
+<img width="1283" height="204" alt="Captura de tela 2026-07-13 112303" src="https://github.com/user-attachments/assets/1285717f-3e58-47e7-b1cc-c45ed3978161" />
+
+</p>
+
+<h1>Cenário</h1>
+<p align="center">
+  <img width="1045" height="661" alt="Captura de tela 2026-07-13 112743" src="https://github.com/user-attachments/assets/f1a044a5-a5d1-4005-9e79-aa277bca90cd" />
+</p>
 
 
 <h1>Minha evolução da semana 😎</h1>
