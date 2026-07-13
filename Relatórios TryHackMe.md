@@ -100,7 +100,7 @@ Para achar: Abrir o Gerenciamento do Computador> executar `mkdir` compmgmt.msc> 
 <h1>Equipe</h1>
 <p align="center">
   <img width="1407" height="199" alt="Captura de tela 2026-07-13 111151" src="https://github.com/user-attachments/assets/a9aff94e-725c-406a-92a7-2dff17895dc7" />
-<img width="1283" height="204" alt="Captura de tela 2026-07-13 112303" src="https://github.com/user-attachments/assets/1285717f-3e58-47e7-b1cc-c45ed3978161" />
+<img width="967" height="83" alt="Captura de tela 2026-07-13 112303" src="https://github.com/user-attachments/assets/3b60f908-0c60-473e-a2bb-51be89161c43" />
 
 </p>
 
