@@ -132,5 +132,5 @@ Para achar: Abrir o Gerenciamento do Computador> executar `mkdir` compmgmt.msc> 
 
 <h1>Minha evolução da semana 😎</h1>
 <p align="center">
-<img width="442" height="266" alt="image" src="https://github.com/user-attachments/assets/1039e9a8-697d-4698-ac1c-063d0db4047b" />
+<img width="450" height="290" alt="image" src="https://github.com/user-attachments/assets/543325f8-281c-4824-a321-ac0362844f96" />
 </p>
