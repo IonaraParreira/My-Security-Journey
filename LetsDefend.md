@@ -17,3 +17,9 @@
   <img width="250" height="267" alt="image" src="https://github.com/user-attachments/assets/7d744383-4934-412f-89eb-cd206e1456e2" />
 </a>
 </p>
+
+<p align="center">
+<a href="URL_DO_SEU_PERFIL_NA_PLATAFORMA">
+<img width="252" height="277" alt="image" src="https://github.com/user-attachments/assets/a0ab5608-8e22-4181-b3a4-7a098e1d9384" />
+</a>
+</p>
