@@ -29,3 +29,15 @@
 <img width="276" height="295" alt="image" src="https://github.com/user-attachments/assets/d81a4df1-eb20-47e2-8e02-3518390ad995" />
 </a>
 </p>
+
+<p align="center">
+<a href="URL_DO_SEU_PERFIL_NA_PLATAFORMA">
+<img width="270" height="263" alt="Captura de tela 2026-08-18 104722" src="https://github.com/user-attachments/assets/f6f70010-5832-4832-9b9b-25eee569f1a5" />
+</a>
+</p>
+
+<p align="center">
+<a href="URL_DO_SEU_PERFIL_NA_PLATAFORMA">
+<img width="245" height="256" alt="image" src="https://github.com/user-attachments/assets/528dc89b-e594-4a59-a654-c915f9553ad2" />
+</a>
+</p>
