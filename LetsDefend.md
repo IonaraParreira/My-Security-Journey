@@ -2,7 +2,7 @@
 
 <h2>Minha evolução da semana 😎</h2>
 <p align="center">
-  <img width="767" height="87" alt="Captura de tela 2026-08-18 104441" src="https://github.com/user-attachments/assets/41bc64a0-840c-4db4-8491-6899343f3441" />
+<img width="590" height="86" alt="image" src="https://github.com/user-attachments/assets/bf04c1dd-c711-453c-80ff-a9b645b97d1b" />
 </p>
 
 <h2>Distintivos</h2>
