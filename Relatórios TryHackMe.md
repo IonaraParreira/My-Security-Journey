@@ -149,7 +149,7 @@ Para explicar como a regra funciona, considere os seguintes casos de uso do Log 
 Caso de uso 1:
 Os adversários tendem a remover os registros durante a fase pós-exploração para apagar seus rastros. Um ID de evento exclusivo, 104, é registrado sempre que um usuário tenta remover ou limpar os registros de eventos. Para criar uma regra com base nessa atividade, podemos definir a condição da seguinte forma:
 
-Regra: Se a origem do log for WinEventLog E o ID do evento for 104 - Acione um alerta.Event Log Cleared
+>Regra: Se a origem do log for WinEventLog E o ID do evento for 104 - Acione um alerta.Event Log Cleared
 
 Caso de uso 2:
 Os adversários usam comandos como esses whoami após a fase de exploração/escalonamento de privilégios. Os seguintes campos serão úteis para incluir na regra.
@@ -159,7 +159,8 @@ Fonte de registro: Identifique a fonte de registro que captura os logs de evento
 ID do evento: Qual ID de evento está associado à atividade de execução do processo? Neste caso, o ID de evento 4688 será útil.
 
 NewProcessName: Qual nome de processo será útil incluir na regra?
-Regra: Se a origem do log for WinEventLog E o código do evento for 4688, e o nome do novo processo contiver "whoami", então acione um alerta.WHOAMI command Execution DETECTED
+
+>Regra: Se a origem do log for WinEventLog E o código do evento for 4688, e o nome do novo processo contiver "whoami", então acione um alerta.WHOAMI command Execution DETECTED
 
 Na tarefa anterior, discutimos a importância dos pares campo-valor. As regras de detecção monitoram os valores de determinados campos para serem acionadas. Por isso, é importante que os logs de entrada estejam normalizados.
 
