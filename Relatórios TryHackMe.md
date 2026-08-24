@@ -142,6 +142,36 @@ O Windows registra todos os eventos que podem ser visualizados por meio do Visua
 
 <img width="1556" height="837" alt="Captura de tela 2026-08-24 091126" src="https://github.com/user-attachments/assets/3b84f184-cbd1-45c1-9c4f-a80be8ad66f9" />
 
+<h1>Continuando a análise</h1>
+
+<h2>Máquina Linux</h2>
+O sistema operacional Linux armazena todos os registros relevantes, como eventos, erros, avisos, etc. Esses registros são então integrados ao SIEM para monitoramento contínuo. Alguns dos locais comuns onde o Linux armazena registros são:
+
+/var/log/httpd: Contém os registros de requisição/resposta HTTP e de erros.
+/var/log/cron: Os eventos relacionados às tarefas cron são armazenados neste local.
+/var/log/auth.log e /var/log/secure: Armazenam registros relacionados à autenticação.
+/var/log/kern: Este arquivo armazena eventos relacionados ao kernel.
+
+daí um exemplo na prática de busca
+<img width="1542" height="286" alt="image" src="https://github.com/user-attachments/assets/0903ef6a-efe0-4fdf-93ad-a8ee06f3526f" />
+
+É possível descobrir bastante pelas informações que são fornecidas pela ingestão de logs
+<img width="1096" height="695" alt="image" src="https://github.com/user-attachments/assets/15f7c385-934b-4311-9244-1a5f8e7722c2" />
+
+Alguns métodos comuns usados ​​por essas soluções SIEM são explicados abaixo:
+
+Agente/Encaminhador
+Essas soluções SIEM fornecem uma ferramenta leve chamada agente (encaminhador).Splunk) que é instalado no Endpoint. Ele é configurado para capturar e enviar todos os logs importantes para o servidor SIEM.
+
+Syslog
+é um protocolo amplamente utilizado para coletar dados de diversos sistemas, como servidores web, bancos de dados, etc., e enviar dados em tempo real para um destino centralizado.
+
+Carregamento manual
+Algumas soluções SIEM, como o Splunk,Alce, etc., permitem que os usuários importem dados offline para análise rápida. Uma vez importados, os dados são normalizados e disponibilizados para análise.
+
+As soluções SIEM de encaminhamento de portas
+também podem ser configuradas para escutar em uma determinada porta, e então os endpoints encaminham os dados para a instância SIEM na porta de escuta.
+
 
 <h1>Minha evolução da semana 😎</h1>
 <p align="center">
