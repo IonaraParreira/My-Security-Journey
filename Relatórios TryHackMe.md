@@ -155,7 +155,9 @@ Caso de uso 2:
 Os adversários usam comandos como esses whoami após a fase de exploração/escalonamento de privilégios. Os seguintes campos serão úteis para incluir na regra.
 
 Fonte de registro: Identifique a fonte de registro que captura os logs de eventos.
+
 ID do evento: Qual ID de evento está associado à atividade de execução do processo? Neste caso, o ID de evento 4688 será útil.
+
 NewProcessName: Qual nome de processo será útil incluir na regra?
 Regra: Se a origem do log for WinEventLog E o código do evento for 4688, e o nome do novo processo contiver "whoami", então acione um alerta.WHOAMI command Execution DETECTED
 
