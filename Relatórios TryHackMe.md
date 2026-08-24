@@ -130,6 +130,19 @@ Para achar: Abrir o Gerenciamento do Computador> executar `mkdir` compmgmt.msc> 
 7. FIN7 threat group actively targets our company.Who can analyze their tactics?
 >R: Alice | Threat Researcher
 
+
+<h1>Máquina Windows</h1>
+O Windows registra todos os eventos que podem ser visualizados por meio do Visualizador de Eventos. Ele atribui um ID exclusivo a cada tipo de atividade de log, facilitando a análise e o rastreamento por parte do analista. Para visualizar eventos em um ambiente Windows, digite  Event Viewerna barra de pesquisa. Isso o levará à ferramenta onde diferentes logs são armazenados e podem ser visualizados, conforme mostrado abaixo. Esses logs de todos os endpoints Windows são encaminhados para a solução SIEM para monitoramento e maior visibilidade.
+
+<img width="1541" height="842" alt="Captura de tela 2026-08-24 091316" src="https://github.com/user-attachments/assets/5e8cbdbe-be58-45f9-85f0-230549258e8c" />
+
+<img width="1547" height="817" alt="Captura de tela 2026-08-24 091238" src="https://github.com/user-attachments/assets/4837e6a8-44ff-4593-92e7-1def2884443d" />
+
+<img width="1532" height="812" alt="Captura de tela 2026-08-24 091225" src="https://github.com/user-attachments/assets/c3faf4f8-7e0e-45ed-a588-48013943d3e5" />
+
+<img width="1556" height="837" alt="Captura de tela 2026-08-24 091126" src="https://github.com/user-attachments/assets/3b84f184-cbd1-45c1-9c4f-a80be8ad66f9" />
+
+
 <h1>Minha evolução da semana 😎</h1>
 <p align="center">
 <img width="490" height="251" alt="image" src="https://github.com/user-attachments/assets/dbcde8f8-868e-4368-aec4-91dd0a816796" />
