@@ -130,6 +130,37 @@ Para achar: Abrir o Gerenciamento do Computador> executar `mkdir` compmgmt.msc> 
 7. FIN7 threat group actively targets our company.Who can analyze their tactics?
 >R: Alice | Threat Researcher
 
+<h1>Suma importância!Por trás dos alertas acionados</h1>
+Aprendemos que umSIEMA solução detecta ameaças correlacionando registros de diversas fontes e acionando alertas, mas será que conhecemos o segredo por trás dessas detecções?
+
+Uma solução SIEM possui regras de detecção que identificam ameaças. Essas regras desempenham um papel importante na detecção oportuna de ameaças, permitindo que os analistas ajam em tempo hábil. As regras de detecção são basicamente expressões lógicas definidas para serem acionadas. Alguns exemplos de regras de detecção são:
+
+*Se um usuário tiver cinco tentativas de login falhas em 10 segundos, gere um alerta paraMultiple Failed Login Attempts
+
+*Se o login for bem-sucedido após várias tentativas falhas, gere um alerta paraSuccessful Login After multiple Login Attempts
+
+*Uma regra é configurada para gerar um alerta sempre que um usuário conectar um dispositivo USB (útil se o uso de USB for restrito de acordo com a política da empresa).
+
+*Se o tráfego de saída for superior a 25 MB, gere um alerta para uma possível tentativa de exfiltração de dados (normalmente, isso depende da política da empresa).
+
+<h3>Como é criada uma regra de detecção?</h3>
+Para explicar como a regra funciona, considere os seguintes casos de uso do Log de Eventos:
+
+Caso de uso 1:
+Os adversários tendem a remover os registros durante a fase pós-exploração para apagar seus rastros. Um ID de evento exclusivo, 104, é registrado sempre que um usuário tenta remover ou limpar os registros de eventos. Para criar uma regra com base nessa atividade, podemos definir a condição da seguinte forma:
+
+Regra: Se a origem do log for WinEventLog E o ID do evento for 104 - Acione um alerta.Event Log Cleared
+
+Caso de uso 2:
+Os adversários usam comandos como esses whoami após a fase de exploração/escalonamento de privilégios. Os seguintes campos serão úteis para incluir na regra.
+
+Fonte de registro: Identifique a fonte de registro que captura os logs de eventos.
+ID do evento: Qual ID de evento está associado à atividade de execução do processo? Neste caso, o ID de evento 4688 será útil.
+NewProcessName: Qual nome de processo será útil incluir na regra?
+Regra: Se a origem do log for WinEventLog E o código do evento for 4688, e o nome do novo processo contiver "whoami", então acione um alerta.WHOAMI command Execution DETECTED
+
+Na tarefa anterior, discutimos a importância dos pares campo-valor. As regras de detecção monitoram os valores de determinados campos para serem acionadas. Por isso, é importante que os logs de entrada estejam normalizados.
+
 
 <h1>Máquina Windows</h1>
 O Windows registra todos os eventos que podem ser visualizados por meio do Visualizador de Eventos. Ele atribui um ID exclusivo a cada tipo de atividade de log, facilitando a análise e o rastreamento por parte do analista. Para visualizar eventos em um ambiente Windows, digite  Event Viewerna barra de pesquisa. Isso o levará à ferramenta onde diferentes logs são armazenados e podem ser visualizados, conforme mostrado abaixo. Esses logs de todos os endpoints Windows são encaminhados para a solução SIEM para monitoramento e maior visibilidade.
@@ -141,6 +172,7 @@ O Windows registra todos os eventos que podem ser visualizados por meio do Visua
 <img width="1532" height="812" alt="Captura de tela 2026-08-24 091225" src="https://github.com/user-attachments/assets/c3faf4f8-7e0e-45ed-a588-48013943d3e5" />
 
 <img width="1556" height="837" alt="Captura de tela 2026-08-24 091126" src="https://github.com/user-attachments/assets/3b84f184-cbd1-45c1-9c4f-a80be8ad66f9" />
+
 
 <h1>Continuando a análise</h1>
 
