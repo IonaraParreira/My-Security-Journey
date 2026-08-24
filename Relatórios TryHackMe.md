@@ -135,13 +135,13 @@ Aprendemos que umSIEMA solução detecta ameaças correlacionando registros de d
 
 Uma solução SIEM possui regras de detecção que identificam ameaças. Essas regras desempenham um papel importante na detecção oportuna de ameaças, permitindo que os analistas ajam em tempo hábil. As regras de detecção são basicamente expressões lógicas definidas para serem acionadas. Alguns exemplos de regras de detecção são:
 
-*Se um usuário tiver cinco tentativas de login falhas em 10 segundos, gere um alerta paraMultiple Failed Login Attempts
+* Se um usuário tiver cinco tentativas de login falhas em 10 segundos, gere um alerta paraMultiple Failed Login Attempts
 
-*Se o login for bem-sucedido após várias tentativas falhas, gere um alerta paraSuccessful Login After multiple Login Attempts
+* Se o login for bem-sucedido após várias tentativas falhas, gere um alerta paraSuccessful Login After multiple Login Attempts
 
-*Uma regra é configurada para gerar um alerta sempre que um usuário conectar um dispositivo USB (útil se o uso de USB for restrito de acordo com a política da empresa).
+* Uma regra é configurada para gerar um alerta sempre que um usuário conectar um dispositivo USB (útil se o uso de USB for restrito de acordo com a política da empresa).
 
-*Se o tráfego de saída for superior a 25 MB, gere um alerta para uma possível tentativa de exfiltração de dados (normalmente, isso depende da política da empresa).
+* Se o tráfego de saída for superior a 25 MB, gere um alerta para uma possível tentativa de exfiltração de dados (normalmente, isso depende da política da empresa).
 
 <h3>Como é criada uma regra de detecção?</h3>
 Para explicar como a regra funciona, considere os seguintes casos de uso do Log de Eventos:
@@ -154,7 +154,7 @@ Os adversários tendem a remover os registros durante a fase pós-exploração p
 Caso de uso 2:
 Os adversários usam comandos como esses whoami após a fase de exploração/escalonamento de privilégios. Os seguintes campos serão úteis para incluir na regra.
 
-Fonte de registro: Identifique a fonte de registro que captura os logs de eventos.
+Fonte de registro: Identifique 🔍 a fonte de registro que captura os logs de eventos.
 
 ID do evento: Qual ID de evento está associado à atividade de execução do processo? Neste caso, o ID de evento 4688 será útil.
 
