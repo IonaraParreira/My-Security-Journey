@@ -219,6 +219,7 @@ também podem ser configuradas para escutar em uma determinada porta, e então o
 <img width="918" height="642" alt="Captura de tela 2026-08-25 131140" src="https://github.com/user-attachments/assets/e82bce5c-d8b6-4aef-8475-4454239cb5cd" />
 
 <img width="387" height="41" alt="Captura de tela 2026-08-25 131130" src="https://github.com/user-attachments/assets/f31c816d-63ca-4b6c-9050-1f40c8a6cede" />
+<img width="870" height="82" alt="Captura de tela 2026-08-25 130740" src="https://github.com/user-attachments/assets/712fee96-ce8f-418c-8116-77c820ca95aa" />
 
 <img width="1022" height="612" alt="Captura de tela 2026-08-25 131147" src="https://github.com/user-attachments/assets/fd3a3d18-5569-4d81-84dc-8878247e5693" />
 
