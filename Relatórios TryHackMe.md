@@ -207,6 +207,25 @@ Algumas soluções SIEM, como o Splunk,Alce, etc., permitem que os usuários imp
 As soluções SIEM de encaminhamento de portas
 também podem ser configuradas para escutar em uma determinada porta, e então os endpoints encaminham os dados para a instância SIEM na porta de escuta.
 
+<h1>Como é um alerta</h1>
+<img width="922" height="816" alt="Captura de tela 2026-08-25 131052" src="https://github.com/user-attachments/assets/946332da-5c20-40bc-8d12-e051ec496105" />
+
+<img width="945" height="807" alt="Captura de tela 2026-08-25 131041" src="https://github.com/user-attachments/assets/9260ce13-5bf6-4bd8-9b72-70ae2d1f2138" />
+
+<img width="885" height="788" alt="Captura de tela 2026-08-25 131101" src="https://github.com/user-attachments/assets/e9b6f668-f415-4389-9ec6-3101243ee1be" />
+
+<img width="917" height="651" alt="Captura de tela 2026-08-25 131113" src="https://github.com/user-attachments/assets/3f629393-f7a7-4c90-9d4b-7cf344d6b3ce" />
+
+<img width="918" height="642" alt="Captura de tela 2026-08-25 131140" src="https://github.com/user-attachments/assets/e82bce5c-d8b6-4aef-8475-4454239cb5cd" />
+
+<img width="387" height="41" alt="Captura de tela 2026-08-25 131130" src="https://github.com/user-attachments/assets/f31c816d-63ca-4b6c-9050-1f40c8a6cede" />
+
+<img width="1022" height="612" alt="Captura de tela 2026-08-25 131147" src="https://github.com/user-attachments/assets/fd3a3d18-5569-4d81-84dc-8878247e5693" />
+
+<img width="1002" height="587" alt="Captura de tela 2026-08-25 131153" src="https://github.com/user-attachments/assets/25198ff2-93f0-4ab7-b107-f0f76c58957f" />
+
+<img width="926" height="546" alt="Captura de tela 2026-08-25 131201" src="https://github.com/user-attachments/assets/df69cfc0-f3ec-4c47-b3ae-899875bbca0f" />
+
 
 <h1>Minha evolução da semana 😎</h1>
 <p align="center">
