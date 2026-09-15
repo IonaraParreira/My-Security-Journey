@@ -225,7 +225,7 @@ também podem ser configuradas para escutar em uma determinada porta, e então o
 
 <img width="1002" height="587" alt="Captura de tela 2026-08-25 131153" src="https://github.com/user-attachments/assets/25198ff2-93f0-4ab7-b107-f0f76c58957f" />
 
-<img width="926" height="546" alt="Captura de tela 2026-08-25 131201" src="https://github.com/user-attachments/assets/df69cfc0-f3ec-4c47-b3ae-899875bbca0f" />
+<img width="926" height="316" alt="Captura de tela 2026-08-25 131201" src="https://github.com/user-attachments/assets/580a54eb-e0d6-42ea-9bb5-daf23e3c8b05" />
 
 
 <h1>Minha evolução da semana 😎</h1>
