@@ -5,7 +5,7 @@
 <img width="716" height="102" alt="image" src="https://github.com/user-attachments/assets/daf0b4ba-f6ad-4f7f-9f80-9d71403c34dd" />
 </p>
 
-# Distintivos
+# Distintivos🎖️
 
 <img width="210" height="215" alt="image" src="https://github.com/user-attachments/assets/57bfe94b-adae-4f90-b0b1-2dbe09dcd43e" />
 <img width="210" height="215" alt="image" src="https://github.com/user-attachments/assets/7d744383-4934-412f-89eb-cd206e1456e2" />
