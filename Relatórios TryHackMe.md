@@ -230,5 +230,5 @@ também podem ser configuradas para escutar em uma determinada porta, e então o
 
 <h1>Minha evolução da semana 😎</h1>
 <p align="center">
-<img width="500" height="255" alt="image" src="https://github.com/user-attachments/assets/c18dad4a-67b4-4985-9c92-c0af1cd7d939" />
+<img width="496" height="242" alt="image" src="https://github.com/user-attachments/assets/bad2f1bc-6293-4547-bd1e-63f2cd734c7f" />
 </p>
