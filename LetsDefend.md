@@ -2,7 +2,7 @@
 
 <h2>Minha evolução da semana 😎</h2>
 <p align="center">
-<img width="727" height="110" alt="image" src="https://github.com/user-attachments/assets/f71e0b64-a836-45cb-b797-a221d71c4be0" />
+<img width="722" height="105" alt="image" src="https://github.com/user-attachments/assets/d7044cea-9ccf-4aee-ae22-a2cd01d326e2" />
 </p>
 
 # Distintivos🎖️
