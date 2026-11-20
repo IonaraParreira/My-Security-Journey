@@ -9,7 +9,7 @@ Aqui documento tudo o que aprendo enquanto me torno uma especialista em CyberSec
 
 ---
 
-## 📖 Livro de Visitas & Sugestões 🛡️
+## 📖 Livro de Visitas & Sugestões 
 
 Tem uma dúvida técnica ou quer sugerir um tema para eu desbravar? 
 
